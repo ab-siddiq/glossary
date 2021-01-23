@@ -96,7 +96,7 @@ footer .has-search .form-control-feedback {
 }
 footer .btn-top-text{font-size: 10px;}
 
-footer input:hover, .form-control-feedback i:hover  {
+footer input:hover,footer .form-control-feedback i:hover  {
     
     border: 1px solid #F75A29;
 }
