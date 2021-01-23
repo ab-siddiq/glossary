@@ -1,4 +1,4 @@
-hr.line-2 {
+.glossary hr.line-2 {
 
     width: 80px;
     height: 4px;
@@ -9,7 +9,7 @@ hr.line-2 {
 
 }
 
-hr.line {
+.glossary hr.line {
     width: 80px;
     height: 4px;
     background-color: #B02A30;
@@ -46,7 +46,7 @@ hr.line {
 }
 
 
-.custom-card {
+.glossary .custom-card {
     min-height: 300px;
     border: 1px solid #E5E5E5;
     border-radius: 5px;
@@ -54,13 +54,13 @@ hr.line {
     margin-bottom: 20px;
 }
 
-.grid {
+.glossary .grid {
     column-count: 4;
     column-gap: 30px;
 }
 
-.grid .grid-item {
-    width: 100%;
+.glossary .grid .grid-item {
+    
     margin-bottom: 30px;
     border-radius: 6px;
     break-inside: avoid;
@@ -70,19 +70,19 @@ hr.line {
 
 
 @media only screen and (max-width: 990px) {
-    .grid {
+    .glossary .grid {
         column-count: 3;
     }
 }
 
 @media only screen and (max-width: 770px) {
-    .grid {
+    .glossary .grid {
         column-count: 2;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .grid {
+    .glossary .grid {
         column-count: 1;
     }
 }
